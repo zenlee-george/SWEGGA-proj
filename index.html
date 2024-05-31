@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-za" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>ORDER</title>
+<link rel="stylesheet" href="./css/styling.css">
+</head>
+
+<body>
+<div id="page">
+	<div class="side">
+		<div id="sidebar">
+			<img src="./Images/swegga.jpg" alt="">
+		</div>
+	</div>
+	<div id="main">
+		
+		<div class="group">
+			<div id="banner">
+				<img src="./Images/delivery.gif" alt="">
+				<img src="./Images/links.gif" id="navigation"  usemap="#workmap">
+
+				<map name="workmap">
+                    <area shape="rect" coords="10,5,95,35" href="order.html" alt="order" target="_blank">
+                    <area shape="rect" coords="105,5,190,35" href="service.html" alt="services" target="_blank">
+                    <area shape="rect" coords="205,5,300,35" href="product.html" alt="products" target="_blank">
+                    <area shape="rect" coords="310,5,440,35" href="orderStatus.html" alt="orderStatus" target="_blank">
+                    <area shape="rect" coords="450,5,555,35" href="contcatUs.html" alt="contactUs" target="_blank">
+                    </map>
+			</div>
+			
+			<h2>Product Summary</h2>
+			<div>
+				<table>
+					<thead>
+						<td>Description</td>
+						<td>Size</td>
+						<td>Colour</td>
+						<td>Price</td>
+						<td>Quantity</td>
+						<td>Total</td>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="">Female Ski Jackets</a></td>
+							<td>
+								<select name="Size" id="size">
+									<option value="small">Small</option>
+									<option value="medium">Medium</option>
+									<option value="large">Large</option>
+								</select>
+							</td>
+							<td>
+								<select name="Female" id="colours">
+									<option value="red">Red</option>
+									<option value="pink">Pink</option>
+									<option value="black">Black</option>
+								</select>
+							</td>
+							<td>150.95</td>
+							<td><input type="number"></td>
+							<td> <label for="">R 301.90</label></td>
+						</tr>
+						<tr>
+							<td><a href="">Male Ski Jackets</a></td>
+							<td>
+								<select name="Size" id="Size">
+									<option value="small">Small</option>
+									<option value="medium">Medium</option>
+									<option value="large">Large</option>
+								</select>
+							</td>
+							<td>
+								<select name="Male" id="Mcolors">
+									<option value="red">Red</option>
+									<option value="blue">Blue</option>
+									<option value="white">White</option>
+								</select>
+							</td>
+							<td>180.95</td>
+							<td><input type="number"></td>
+							<td><label for="">R 723.80</label></td>
+						</tr>
+						<tr>
+							<td colspan="4">Click to confirm and process your order</td>
+							<td><button>Total Price</button></td>
+							<td><label for="">R 1025.70</label></td>
+						</tr>
+					</tbody>
+						
+				</table>
+			</div>
+		</div>
+	</div>
+
+	
+	<footer class="copyright"><p> &#169; 2020 SWEGGA Fashion - Keegan Niekerk</p></footer>
+</div>
+<script src="./script/script.js"></script>
+</body>
+</html>
